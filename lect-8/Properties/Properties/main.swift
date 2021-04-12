@@ -14,6 +14,7 @@ precedencegroup TildaOperatorPrecedence {
 }
 
 infix operator ~~: TildaOperatorPrecedence
+infix operator +: TildaOperatorPrecedence
 
 class Fraction: CustomStringConvertible {
 	
@@ -145,7 +146,9 @@ class Fraction: CustomStringConvertible {
 */
 
 let num1 = Fraction(0.25)
+print(num1)
 let num2 = Fraction(33, 12)
+print(num2!)
 let result = num1 + num2! * num1 ~~ num2!
 print(result)
 
