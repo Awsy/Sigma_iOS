@@ -13,8 +13,21 @@ precedencegroup TildaOperatorPrecedence {
 	higherThan: MultiplicationPrecedence
 }
 
+precedencegroup AdditionOperatorPrecedence {
+	lowerThan: RangeFormationPrecedence
+	associativity: left
+}
+
+precedencegroup MultiplicationOperatorPrecedence {
+	higherThan: AdditionOperatorPrecedence
+	associativity: left
+}
+
 infix operator ~~: TildaOperatorPrecedence
-infix operator +: TildaOperatorPrecedence
+infix operator +: AdditionOperatorPrecedence
+infix operator -: AdditionOperatorPrecedence
+infix operator /: MultiplicationOperatorPrecedence
+infix operator *: MultiplicationOperatorPrecedence
 
 class Fraction: CustomStringConvertible {
 	
