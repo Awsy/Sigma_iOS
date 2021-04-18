@@ -14,6 +14,7 @@ class Parent {
 	init(name: String, child: String) {
 		self.name = name
 		self.child = child
+		
 		print(name)
 	}
 	
