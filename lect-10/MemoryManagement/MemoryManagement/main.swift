@@ -8,10 +8,10 @@ import Foundation
 class Parent {
 	
 	let name: String
-	let child: String
+	let child: Son?
 	
 	
-	init(name: String, child: String) {
+	init(name: String, child: Son?) {
 		self.name = name
 		self.child = child
 		
@@ -26,14 +26,14 @@ class Parent {
 }
 
 // MARK: - В ініціалізаторі присвоїти імя і вивести в лог
-var name1 = Parent(name: "Aws", child: "LilVillain")
+var name1 = Parent(name: "Aws", child: nil)
 print(name1)
 
 
 // MARK: - Створити sсope (наприклад do { .. } aбо функцію) та створити об’єкт всередині. Звернути увагу на логи
 
 func scopeFunc() {
-	let parentInit = Parent.init(name: "Aws", child: "Jason")
+	let parentInit = Parent.init(name: "Aws", child: Son(parent: Parent.init(name: "LilWayne", child: nil)))
 	print(parentInit)
 }
 
@@ -50,15 +50,15 @@ class Son {
 		print(parent)
 	}
 	deinit {
-
 		print(parent as Any)
+		parent = nil
 	}
 	
 }
 
 // MARK: - Створити тестові об’єкти
-var parent1 = Parent(name: "Martin", child: "Adam")
-var son1 = Son(parent: Parent.init(name: "Joe", child: "Mark"))
+var parent1 = Parent(name: "Martin", child: nil)
+var son1 = Son(parent: Parent.init(name: "Joe", child: nil))
 print(parent1)
 print(son1)
 
