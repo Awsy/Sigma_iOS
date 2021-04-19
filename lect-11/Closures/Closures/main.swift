@@ -22,57 +22,8 @@ class Worker {
 		print(formatter.string(from: acceptanceDate))
 	}
 	
-	func calculateAge(dob: String) -> Int? {
-		let dateFormatter = DateFormatter()
-		dateFormatter.dateFormat = "MM/DD/YYYY"
-		let birthdayDate = dateFormatter.date(from: dob)
-		let calendar: NSCalendar! = NSCalendar(calendarIdentifier: .gregorian)
-		let now = Date()
-		let calcAge = calendar.components(.year, from: birthdayDate!, to: now, options: [])
-		guard let age = calcAge.year else { return nil }
-		return age
-	}
 	
-	func calculateSalary(_ wage: Double,_ hours: Double) -> Double {
-		
-		let calculate = wage * hours
-		return calculate
-	}
-	
-	func findingLength(_ name: String,_ surname: String) {
-		
-		let findNameLength = name.count
-		let findSurnameLength = surname.count
-		print("\(findNameLength), \(findSurnameLength)")
-	}
-	
-	
-	func greeting(_ greets: String) -> String {
-		return "\(self.name) is saying: \(greets)"
-	}
-	
-	func complaining(_ complaint: String) -> String {
-		return "\(self.name) is complaining about: \(complaint)"
-	}
-	
-	func coffee(_ action: String) -> String {
-		return "\(self.name) is drinking coffee"
-	}
-	
-	func sleeping(_ sleep: String) -> String {
-		return "\(self.name) is sleeping"
-	}
-	
-	func eating(_ eat: String) -> String {
-		return "\(self.name) is eating now"
-	}
-	
-	func getPaid(_ earn: Double) -> String {
-		return "\(self.name) is working hard to earn: \(earn)"
-	}
-	//----------------------------------------------------------
-	
-	init(_ name: String,_ surname: String,_ salary: Double,_ dob: String,_ acceptanceDate: String,_ maritalStatus: String,_ education: String, job: Job,_ experience: Int) {
+	init?(_ name: String,_ surname: String,_ salary: Double,_ dob: String,_ acceptanceDate: String,_ maritalStatus: String,_ education: String, job: Job,_ experience: Int) {
 		self.name = name
 		self.surname = surname
 		self.salary = salary
@@ -85,16 +36,48 @@ class Worker {
 	}
 }
 
-protocol Interviewing {
-	func interviewNewbies()
-	func firing()
-	func calculateSalary()
-}
 
-class Enterprise {
+
+class Enterprise: Worker {
 	var workers: [String]
 	var manager: Manager
-	var salary: Interviewing?
+	var hire = { () -> String in
+		return "worker has been hired"
+	}
+	
+	// MARK: - Описати функцію у підприємстві яка буде знаходити робітників обраного типу (вчитель, водій, і тд) та повертати іх через замкнення. Якщо робітники знайдені – викликати у усіх одну функцію (на вибір: привітатися, їсти, тд).
+	
+	var staff = {(worker: Worker) -> String in
+		switch worker.job {
+			case .teacher:
+				return { () -> String in
+					return "Hello everyone"
+				}()
+			case .driver:
+				return { () -> String in
+					return "Hello everyone"
+				}()
+			case .seller:
+				return { () -> String in
+					return "Hello everyone"
+				}()
+			case .fisherman:
+				return { () -> String in
+					return "Hello everyone"
+				}()
+			default:
+				<#code#>
+		}
+	}
+	
+	// MARK: - Визначити функцію, яка знаходить одного робітника (залежить від вхідного критерію функції, не схожий з 1-м завданням) та повертає його через замкнення. Якщо робітник знайден, то вивести на екран його ім’я та прізвище, якщо ні – вивести на екран відповідний запис.
+	
+	
+	
+	
+	
+	//----------------------------------
+	
 	
 	init(workers: [String], manager: Manager) {
 		self.workers = workers
@@ -104,8 +87,14 @@ class Enterprise {
 
 class Manager: Worker {
 	
-	var interviewNewbies: Interviewing?
-	var fireWorkers: Interviewing?
+	var interviewNewbies:(String) -> (String) = { interview in
+	return "\(interview) is part of manager's duty"
+	}
+	var fireWorkers: (String) -> (String) = { fire in
+		return "\(fire) workers is part of manager's duty"
+	}
+	
+
 	
 	func interviewNewbies(_ newbie: Worker) -> Bool {
 		if self.experience >= 2 {
