@@ -8,6 +8,7 @@ import Foundation
 // MARK: - використовувався або універсальний клас, або універсальна функція;
 
 class ExpandValue<T> {
+	
 	var area: T
 	
 	init(area: T) {

@@ -8,6 +8,7 @@ import Foundation
 class Queue<T> {
 	
 	enum ValidationError: Error {
+		
 		case invalidObject
 	}
 	
