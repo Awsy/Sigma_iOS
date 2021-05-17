@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  AutoLayoutTask2
-//
-//  Created by Aws Shkara on 17.05.2021.
-//
 
 import UIKit
 

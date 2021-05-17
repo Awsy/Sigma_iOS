@@ -68,8 +68,7 @@ extension UITableView {
 		messageLabel.text = message
 		messageLabel.numberOfLines = 0
 		messageLabel.textAlignment = .center
-		
-		// start of add image view code
+
 		let imgView = UIImageView()
 		imgView.translatesAutoresizingMaskIntoConstraints = false
 		if let img = UIImage(named: "s1") {
@@ -82,9 +81,7 @@ extension UITableView {
 			imgView.widthAnchor.constraint(equalToConstant: 50.0),
 			imgView.heightAnchor.constraint(equalTo: imgView.widthAnchor, multiplier: 1.0),
 		])
-		// end of add image view code
-		
-		// The only tricky part is here:
+
 		self.backgroundView = emptyView
 		self.separatorStyle = .none
 	}
