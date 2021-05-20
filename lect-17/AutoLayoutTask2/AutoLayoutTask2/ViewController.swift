@@ -9,7 +9,6 @@ class ViewController: UIViewController {
 	@IBOutlet weak var buttonContainer: UIView!
 
 
-	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
@@ -29,8 +28,6 @@ class CatViewController: UIViewController {
 		view.backgroundColor = .white
 		
 	}
-	
-
 }
 
 
