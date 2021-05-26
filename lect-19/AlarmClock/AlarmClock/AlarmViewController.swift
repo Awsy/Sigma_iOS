@@ -12,7 +12,7 @@ class AlarmViewController: UIViewController, UICollectionViewDataSource {
 		super.viewDidLoad()
 		
 		collectionView.dataSource = self;
-
+		
 	}
 	
 	func numberOfSections(in collectionView: UICollectionView) -> Int {

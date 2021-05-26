@@ -12,7 +12,7 @@
         <!--Alarm-->
         <scene sceneID="1xl-JD-SgC">
             <objects>
-                <viewController id="EAI-gs-5Pu" sceneMemberID="viewController">
+                <viewController id="EAI-gs-5Pu" customClass="AlarmViewController" customModule="AlarmClock" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ya7-cJ-g3X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,6 +48,9 @@
                                                 </switch>
                                             </subviews>
                                         </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="label" destination="PPt-WW-2YJ" id="ZP4-0X-Rxx"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -61,9 +64,16 @@
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" title="Alarm" id="NFR-KZ-sJr">
-                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="wan-jr-she"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="wan-jr-she">
+                            <connections>
+                                <action selector="didTouchEdit" destination="EAI-gs-5Pu" id="Eke-zG-HBh"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="H1k-2K-mlY"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="QNO-D8-edp" id="zBi-nI-KNX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="avX-ET-fgZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
