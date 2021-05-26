@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  AlarmPrototype
-//
-//  Created by Aws Shkara on 24.05.2021.
-//
 
 import UIKit
 

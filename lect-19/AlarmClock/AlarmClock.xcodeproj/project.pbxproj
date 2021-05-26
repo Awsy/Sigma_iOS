@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9E49A2B265BCB69006164A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E49A2A265BCB69006164A4 /* AppDelegate.swift */; };
-		B9E49A2D265BCB69006164A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E49A2C265BCB69006164A4 /* SceneDelegate.swift */; };
-		B9E49A2F265BCB69006164A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E49A2E265BCB69006164A4 /* ViewController.swift */; };
-		B9E49A32265BCB69006164A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E49A30265BCB69006164A4 /* Main.storyboard */; };
-		B9E49A34265BCB6C006164A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E49A33265BCB6C006164A4 /* Assets.xcassets */; };
-		B9E49A37265BCB6C006164A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E49A35265BCB6C006164A4 /* LaunchScreen.storyboard */; };
-		B9E49A3F265BFB7C006164A4 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E49A3E265BFB7C006164A4 /* AppViewController.swift */; };
+		B9E49A4F265E5E51006164A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E49A4E265E5E51006164A4 /* AppDelegate.swift */; };
+		B9E49A51265E5E51006164A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E49A50265E5E51006164A4 /* SceneDelegate.swift */; };
+		B9E49A53265E5E51006164A4 /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E49A52265E5E51006164A4 /* WorldClockViewController.swift */; };
+		B9E49A56265E5E51006164A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E49A54265E5E51006164A4 /* Main.storyboard */; };
+		B9E49A58265E5E54006164A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E49A57265E5E54006164A4 /* Assets.xcassets */; };
+		B9E49A5B265E5E54006164A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E49A59265E5E54006164A4 /* LaunchScreen.storyboard */; };
+		B9E49A63265E91B6006164A4 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E49A62265E91B6006164A4 /* AlarmViewController.swift */; };
+		B9E49A65265E9BAE006164A4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E49A64265E9BAE006164A4 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B9E49A27265BCB69006164A4 /* AlarmPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9E49A2A265BCB69006164A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9E49A2C265BCB69006164A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B9E49A2E265BCB69006164A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B9E49A31265BCB69006164A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B9E49A33265BCB6C006164A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B9E49A36265BCB6C006164A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B9E49A38265BCB6C006164A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9E49A3E265BFB7C006164A4 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		B9E49A4B265E5E51006164A4 /* AlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E49A4E265E5E51006164A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9E49A50265E5E51006164A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B9E49A52265E5E51006164A4 /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
+		B9E49A55265E5E51006164A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9E49A57265E5E54006164A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9E49A5A265E5E54006164A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9E49A5C265E5E54006164A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E49A62265E91B6006164A4 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		B9E49A64265E9BAE006164A4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B9E49A24265BCB69006164A4 /* Frameworks */ = {
+		B9E49A48265E5E51006164A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +41,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B9E49A1E265BCB69006164A4 = {
+		B9E49A42265E5E51006164A4 = {
 			isa = PBXGroup;
 			children = (
-				B9E49A29265BCB69006164A4 /* AlarmPrototype */,
-				B9E49A28265BCB69006164A4 /* Products */,
+				B9E49A4D265E5E51006164A4 /* AlarmClock */,
+				B9E49A4C265E5E51006164A4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B9E49A28265BCB69006164A4 /* Products */ = {
+		B9E49A4C265E5E51006164A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9E49A27265BCB69006164A4 /* AlarmPrototype.app */,
+				B9E49A4B265E5E51006164A4 /* AlarmClock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9E49A29265BCB69006164A4 /* AlarmPrototype */ = {
+		B9E49A4D265E5E51006164A4 /* AlarmClock */ = {
 			isa = PBXGroup;
 			children = (
-				B9E49A2A265BCB69006164A4 /* AppDelegate.swift */,
-				B9E49A2C265BCB69006164A4 /* SceneDelegate.swift */,
-				B9E49A3E265BFB7C006164A4 /* AppViewController.swift */,
-				B9E49A2E265BCB69006164A4 /* ViewController.swift */,
-				B9E49A30265BCB69006164A4 /* Main.storyboard */,
-				B9E49A33265BCB6C006164A4 /* Assets.xcassets */,
-				B9E49A35265BCB6C006164A4 /* LaunchScreen.storyboard */,
-				B9E49A38265BCB6C006164A4 /* Info.plist */,
+				B9E49A4E265E5E51006164A4 /* AppDelegate.swift */,
+				B9E49A50265E5E51006164A4 /* SceneDelegate.swift */,
+				B9E49A52265E5E51006164A4 /* WorldClockViewController.swift */,
+				B9E49A62265E91B6006164A4 /* AlarmViewController.swift */,
+				B9E49A64265E9BAE006164A4 /* CollectionViewCell.swift */,
+				B9E49A54265E5E51006164A4 /* Main.storyboard */,
+				B9E49A57265E5E54006164A4 /* Assets.xcassets */,
+				B9E49A59265E5E54006164A4 /* LaunchScreen.storyboard */,
+				B9E49A5C265E5E54006164A4 /* Info.plist */,
 			);
-			path = AlarmPrototype;
+			path = AlarmClock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9E49A26265BCB69006164A4 /* AlarmPrototype */ = {
+		B9E49A4A265E5E51006164A4 /* AlarmClock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9E49A3B265BCB6C006164A4 /* Build configuration list for PBXNativeTarget "AlarmPrototype" */;
+			buildConfigurationList = B9E49A5F265E5E54006164A4 /* Build configuration list for PBXNativeTarget "AlarmClock" */;
 			buildPhases = (
-				B9E49A23265BCB69006164A4 /* Sources */,
-				B9E49A24265BCB69006164A4 /* Frameworks */,
-				B9E49A25265BCB69006164A4 /* Resources */,
+				B9E49A47265E5E51006164A4 /* Sources */,
+				B9E49A48265E5E51006164A4 /* Frameworks */,
+				B9E49A49265E5E51006164A4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AlarmPrototype;
-			productName = AlarmPrototype;
-			productReference = B9E49A27265BCB69006164A4 /* AlarmPrototype.app */;
+			name = AlarmClock;
+			productName = AlarmClock;
+			productReference = B9E49A4B265E5E51006164A4 /* AlarmClock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B9E49A1F265BCB69006164A4 /* Project object */ = {
+		B9E49A43265E5E51006164A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					B9E49A26265BCB69006164A4 = {
+					B9E49A4A265E5E51006164A4 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = B9E49A22265BCB69006164A4 /* Build configuration list for PBXProject "AlarmPrototype" */;
+			buildConfigurationList = B9E49A46265E5E51006164A4 /* Build configuration list for PBXProject "AlarmClock" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +115,57 @@
 				en,
 				Base,
 			);
-			mainGroup = B9E49A1E265BCB69006164A4;
-			productRefGroup = B9E49A28265BCB69006164A4 /* Products */;
+			mainGroup = B9E49A42265E5E51006164A4;
+			productRefGroup = B9E49A4C265E5E51006164A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9E49A26265BCB69006164A4 /* AlarmPrototype */,
+				B9E49A4A265E5E51006164A4 /* AlarmClock */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B9E49A25265BCB69006164A4 /* Resources */ = {
+		B9E49A49265E5E51006164A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E49A37265BCB6C006164A4 /* LaunchScreen.storyboard in Resources */,
-				B9E49A34265BCB6C006164A4 /* Assets.xcassets in Resources */,
-				B9E49A32265BCB69006164A4 /* Main.storyboard in Resources */,
+				B9E49A5B265E5E54006164A4 /* LaunchScreen.storyboard in Resources */,
+				B9E49A58265E5E54006164A4 /* Assets.xcassets in Resources */,
+				B9E49A56265E5E51006164A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B9E49A23265BCB69006164A4 /* Sources */ = {
+		B9E49A47265E5E51006164A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E49A2F265BCB69006164A4 /* ViewController.swift in Sources */,
-				B9E49A2B265BCB69006164A4 /* AppDelegate.swift in Sources */,
-				B9E49A3F265BFB7C006164A4 /* AppViewController.swift in Sources */,
-				B9E49A2D265BCB69006164A4 /* SceneDelegate.swift in Sources */,
+				B9E49A65265E9BAE006164A4 /* CollectionViewCell.swift in Sources */,
+				B9E49A53265E5E51006164A4 /* WorldClockViewController.swift in Sources */,
+				B9E49A63265E91B6006164A4 /* AlarmViewController.swift in Sources */,
+				B9E49A4F265E5E51006164A4 /* AppDelegate.swift in Sources */,
+				B9E49A51265E5E51006164A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B9E49A30265BCB69006164A4 /* Main.storyboard */ = {
+		B9E49A54265E5E51006164A4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B9E49A31265BCB69006164A4 /* Base */,
+				B9E49A55265E5E51006164A4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B9E49A35265BCB6C006164A4 /* LaunchScreen.storyboard */ = {
+		B9E49A59265E5E54006164A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B9E49A36265BCB6C006164A4 /* Base */,
+				B9E49A5A265E5E54006164A4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +173,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B9E49A39265BCB6C006164A4 /* Debug */ = {
+		B9E49A5D265E5E54006164A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		B9E49A3A265BCB6C006164A4 /* Release */ = {
+		B9E49A5E265E5E54006164A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,38 +289,38 @@
 			};
 			name = Release;
 		};
-		B9E49A3C265BCB6C006164A4 /* Debug */ = {
+		B9E49A60265E5E54006164A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVJU929GFT;
-				INFOPLIST_FILE = AlarmPrototype/Info.plist;
+				INFOPLIST_FILE = AlarmClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AwsShkara.AlarmPrototype;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AwsShkara.AlarmClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B9E49A3D265BCB6C006164A4 /* Release */ = {
+		B9E49A61265E5E54006164A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVJU929GFT;
-				INFOPLIST_FILE = AlarmPrototype/Info.plist;
+				INFOPLIST_FILE = AlarmClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AwsShkara.AlarmPrototype;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AwsShkara.AlarmClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,25 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9E49A22265BCB69006164A4 /* Build configuration list for PBXProject "AlarmPrototype" */ = {
+		B9E49A46265E5E51006164A4 /* Build configuration list for PBXProject "AlarmClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9E49A39265BCB6C006164A4 /* Debug */,
-				B9E49A3A265BCB6C006164A4 /* Release */,
+				B9E49A5D265E5E54006164A4 /* Debug */,
+				B9E49A5E265E5E54006164A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9E49A3B265BCB6C006164A4 /* Build configuration list for PBXNativeTarget "AlarmPrototype" */ = {
+		B9E49A5F265E5E54006164A4 /* Build configuration list for PBXNativeTarget "AlarmClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9E49A3C265BCB6C006164A4 /* Debug */,
-				B9E49A3D265BCB6C006164A4 /* Release */,
+				B9E49A60265E5E54006164A4 /* Debug */,
+				B9E49A61265E5E54006164A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B9E49A1F265BCB69006164A4 /* Project object */;
+	rootObject = B9E49A43265E5E51006164A4 /* Project object */;
 }
