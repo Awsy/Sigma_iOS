@@ -6,7 +6,7 @@ class AlarmViewController: UIViewController, UICollectionViewDataSource {
 	@IBOutlet weak var collectionView: UICollectionView!
 	
 	
-	var Alarms = ["6:05"]
+	var Alarms = ["6:05", "7:32"]
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -21,7 +21,7 @@ class AlarmViewController: UIViewController, UICollectionViewDataSource {
 	
 	func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
 		
-		return 6
+		return 3
 	}
 	
 	func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -33,7 +33,7 @@ class AlarmViewController: UIViewController, UICollectionViewDataSource {
 		return cell
 	}
 	
-	
+
 	
 	
 	@IBAction func didTouchEdit() {
