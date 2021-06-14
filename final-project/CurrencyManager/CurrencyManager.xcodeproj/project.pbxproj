@@ -35,6 +35,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9AA5C6D2674B7250027FDBA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B9E49953264D7A84006164A4 /* ViewController.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B9AA5C6E2674B75F0027FDBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9AA5C6F2674B7650027FDBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9AA5C702674B78F0027FDBA /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		B9E49943264D7A84006164A4 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				B9E4994F264D7A84006164A4 /* AppDelegate.swift */,
-				B9E49953264D7A84006164A4 /* ViewController.swift */,
+				B9AA5C6E2674B75F0027FDBA /* Model */,
+				B9AA5C6D2674B7250027FDBA /* Presenter */,
+				B9AA5C6F2674B7650027FDBA /* View */,
+				B9AA5C702674B78F0027FDBA /* Api */,
 				B9E49955264D7A84006164A4 /* Main.storyboard */,
 				B9E49958264D7A88006164A4 /* Assets.xcassets */,
 				B9E4995A264D7A88006164A4 /* LaunchScreen.storyboard */,
@@ -285,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVJU929GFT;
 				INFOPLIST_FILE = CurrencyManager/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVJU929GFT;
 				INFOPLIST_FILE = CurrencyManager/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

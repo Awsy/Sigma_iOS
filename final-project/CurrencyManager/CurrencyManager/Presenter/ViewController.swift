@@ -1,11 +1,13 @@
-//
-//  ViewController.swift
-//  CurrencyManager
-//
-//  Created by Aws Shkara on 13.05.2021.
-//
+
 
 import UIKit
+
+
+// Tutorial screen
+// Main screen: actions: Search, Link, Map, Phone
+// Bank-Details screen
+// Share screen
+// Map screen
 
 class ViewController: UIViewController {
 
