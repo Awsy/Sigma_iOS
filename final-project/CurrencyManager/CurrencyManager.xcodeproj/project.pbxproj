@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9AA5C922677E5F80027FDBA /* BankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA5C912677E5F80027FDBA /* BankModel.swift */; };
+		B9AA5C942677ED600027FDBA /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA5C932677ED600027FDBA /* CardCell.swift */; };
 		B9E49950264D7A84006164A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E4994F264D7A84006164A4 /* AppDelegate.swift */; };
 		B9E49954264D7A84006164A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E49953264D7A84006164A4 /* ViewController.swift */; };
 		B9E49957264D7A84006164A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E49955264D7A84006164A4 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9AA5C912677E5F80027FDBA /* BankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankModel.swift; sourceTree = "<group>"; };
+		B9AA5C932677ED600027FDBA /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		B9E4994C264D7A84006164A4 /* CurrencyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E4994F264D7A84006164A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9E49953264D7A84006164A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				B9E49953264D7A84006164A4 /* ViewController.swift */,
+				B9AA5C932677ED600027FDBA /* CardCell.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -46,6 +51,7 @@
 		B9AA5C6E2674B75F0027FDBA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B9AA5C912677E5F80027FDBA /* BankModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -53,6 +59,7 @@
 		B9AA5C6F2674B7650027FDBA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B9E49955264D7A84006164A4 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,7 +95,6 @@
 				B9AA5C6D2674B7250027FDBA /* Presenter */,
 				B9AA5C6F2674B7650027FDBA /* View */,
 				B9AA5C702674B78F0027FDBA /* Api */,
-				B9E49955264D7A84006164A4 /* Main.storyboard */,
 				B9E49958264D7A88006164A4 /* Assets.xcassets */,
 				B9E4995A264D7A88006164A4 /* LaunchScreen.storyboard */,
 				B9E4995D264D7A88006164A4 /* Info.plist */,
@@ -167,7 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9E49954264D7A84006164A4 /* ViewController.swift in Sources */,
+				B9AA5C922677E5F80027FDBA /* BankModel.swift in Sources */,
 				B9E49950264D7A84006164A4 /* AppDelegate.swift in Sources */,
+				B9AA5C942677ED600027FDBA /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
