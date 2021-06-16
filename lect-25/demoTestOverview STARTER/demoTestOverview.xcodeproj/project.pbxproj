@@ -20,6 +20,7 @@
 		0E2E617823192B8A00D0A062 /* Operand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E617723192B8A00D0A062 /* Operand.swift */; };
 		0E2E617A23192E8700D0A062 /* CalculatorOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E617923192E8700D0A062 /* CalculatorOperation.swift */; };
 		0E2E617C23192E9900D0A062 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E617B23192E9900D0A062 /* Operation.swift */; };
+		B9AA5C96267A43AD0027FDBA /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA5C95267A43AD0027FDBA /* Calculate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		0E2E617723192B8A00D0A062 /* Operand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operand.swift; sourceTree = "<group>"; };
 		0E2E617923192E8700D0A062 /* CalculatorOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorOperation.swift; sourceTree = "<group>"; };
 		0E2E617B23192E9900D0A062 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		B9AA5C95267A43AD0027FDBA /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				0E2E617B23192E9900D0A062 /* Operation.swift */,
 				0E2E617723192B8A00D0A062 /* Operand.swift */,
 				0E2E617923192E8700D0A062 /* CalculatorOperation.swift */,
+				B9AA5C95267A43AD0027FDBA /* Calculate.swift */,
 				0E2E617623192A8100D0A062 /* Localizable.strings */,
 				0E2E6143231920A800D0A062 /* Main.storyboard */,
 				0E2E6149231920AA00D0A062 /* Assets.xcassets */,
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9AA5C96267A43AD0027FDBA /* Calculate.swift in Sources */,
 				0E2E6148231920A800D0A062 /* demoTestOverview.xcdatamodeld in Sources */,
 				0E2E617C23192E9900D0A062 /* Operation.swift in Sources */,
 				0E2E617A23192E8700D0A062 /* CalculatorOperation.swift in Sources */,
