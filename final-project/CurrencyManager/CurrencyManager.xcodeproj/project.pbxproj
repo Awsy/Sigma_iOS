@@ -3,29 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224172B66AE2E5563A170C1F /* Pods_CurrencyManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4658957F6E4408B623A0ACF /* Pods_CurrencyManager.framework */; };
+		B975B6E5267E7BA2001829D1 /* ExchangerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975B6E4267E7BA2001829D1 /* ExchangerModel.swift */; };
+		B975B6E7267E7D30001829D1 /* RatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975B6E6267E7D30001829D1 /* RatesModel.swift */; };
+		B975B6EA267E7EB2001829D1 /* HomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975B6E9267E7EB2001829D1 /* HomePageCell.swift */; };
+		B975B6EC267E7EC8001829D1 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975B6EB267E7EC8001829D1 /* HomePageViewController.swift */; };
+		B975B6F126809076001829D1 /* DetailsRateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975B6F026809076001829D1 /* DetailsRateCell.swift */; };
+		B975B6F326809092001829D1 /* DetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975B6F226809092001829D1 /* DetailsHeaderView.swift */; };
+		B975B6F5268090BF001829D1 /* DetailsSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975B6F4268090BF001829D1 /* DetailsSectionHeaderView.swift */; };
+		B975B6F7268090F2001829D1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975B6F6268090F2001829D1 /* DetailsViewController.swift */; };
+		B975B6F92680B465001829D1 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975B6F82680B465001829D1 /* ShareViewController.swift */; };
+		B975B6FB2680C5C8001829D1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975B6FA2680C5C8001829D1 /* MapViewController.swift */; };
 		B9AA5C922677E5F80027FDBA /* BankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA5C912677E5F80027FDBA /* BankModel.swift */; };
-		B9AA5C942677ED600027FDBA /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA5C932677ED600027FDBA /* CardCell.swift */; };
 		B9E49950264D7A84006164A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E4994F264D7A84006164A4 /* AppDelegate.swift */; };
-		B9E49954264D7A84006164A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E49953264D7A84006164A4 /* ViewController.swift */; };
-		B9E49957264D7A84006164A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E49955264D7A84006164A4 /* Main.storyboard */; };
 		B9E49959264D7A88006164A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E49958264D7A88006164A4 /* Assets.xcassets */; };
 		B9E4995C264D7A88006164A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E4995A264D7A88006164A4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01340A442B7CFDD02EC454C4 /* Pods-CurrencyManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurrencyManager.debug.xcconfig"; path = "Target Support Files/Pods-CurrencyManager/Pods-CurrencyManager.debug.xcconfig"; sourceTree = "<group>"; };
+		5042E2DC53B51ECF9A653FE4 /* Pods-CurrencyManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurrencyManager.release.xcconfig"; path = "Target Support Files/Pods-CurrencyManager/Pods-CurrencyManager.release.xcconfig"; sourceTree = "<group>"; };
+		B975B6E4267E7BA2001829D1 /* ExchangerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangerModel.swift; sourceTree = "<group>"; };
+		B975B6E6267E7D30001829D1 /* RatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesModel.swift; sourceTree = "<group>"; };
+		B975B6E9267E7EB2001829D1 /* HomePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCell.swift; sourceTree = "<group>"; };
+		B975B6EB267E7EC8001829D1 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		B975B6F026809076001829D1 /* DetailsRateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRateCell.swift; sourceTree = "<group>"; };
+		B975B6F226809092001829D1 /* DetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHeaderView.swift; sourceTree = "<group>"; };
+		B975B6F4268090BF001829D1 /* DetailsSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsSectionHeaderView.swift; sourceTree = "<group>"; };
+		B975B6F6268090F2001829D1 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		B975B6F82680B465001829D1 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		B975B6FA2680C5C8001829D1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		B9AA5C912677E5F80027FDBA /* BankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankModel.swift; sourceTree = "<group>"; };
-		B9AA5C932677ED600027FDBA /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		B9E4994C264D7A84006164A4 /* CurrencyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E4994F264D7A84006164A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9E49953264D7A84006164A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B9E49956264D7A84006164A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9E49958264D7A88006164A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9E4995B264D7A88006164A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9E4995D264D7A88006164A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4658957F6E4408B623A0ACF /* Pods_CurrencyManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurrencyManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,25 +51,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224172B66AE2E5563A170C1F /* Pods_CurrencyManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B9AA5C6D2674B7250027FDBA /* Presenter */ = {
+		99547DA3B3EA3A938EBBC4B9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B9E49953264D7A84006164A4 /* ViewController.swift */,
-				B9AA5C932677ED600027FDBA /* CardCell.swift */,
+				01340A442B7CFDD02EC454C4 /* Pods-CurrencyManager.debug.xcconfig */,
+				5042E2DC53B51ECF9A653FE4 /* Pods-CurrencyManager.release.xcconfig */,
 			);
-			path = Presenter;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B975B6E8267E7E8A001829D1 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				B975B6E9267E7EB2001829D1 /* HomePageCell.swift */,
+				B975B6EB267E7EC8001829D1 /* HomePageViewController.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		B975B6ED267F9856001829D1 /* DetailsPage */ = {
+			isa = PBXGroup;
+			children = (
+				B975B6F026809076001829D1 /* DetailsRateCell.swift */,
+				B975B6F226809092001829D1 /* DetailsHeaderView.swift */,
+				B975B6F4268090BF001829D1 /* DetailsSectionHeaderView.swift */,
+				B975B6F6268090F2001829D1 /* DetailsViewController.swift */,
+			);
+			path = DetailsPage;
+			sourceTree = "<group>";
+		};
+		B975B6EE267F986F001829D1 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				B975B6F82680B465001829D1 /* ShareViewController.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		B975B6EF267F9887001829D1 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B975B6FA2680C5C8001829D1 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		B9AA5C6D2674B7250027FDBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B975B6E8267E7E8A001829D1 /* HomePage */,
+				B975B6ED267F9856001829D1 /* DetailsPage */,
+				B975B6EE267F986F001829D1 /* Share */,
+				B975B6EF267F9887001829D1 /* Map */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		B9AA5C6E2674B75F0027FDBA /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				B9AA5C912677E5F80027FDBA /* BankModel.swift */,
+				B975B6E4267E7BA2001829D1 /* ExchangerModel.swift */,
+				B975B6E6267E7D30001829D1 /* RatesModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -59,16 +127,8 @@
 		B9AA5C6F2674B7650027FDBA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B9E49955264D7A84006164A4 /* Main.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		B9AA5C702674B78F0027FDBA /* Api */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Api;
 			sourceTree = "<group>";
 		};
 		B9E49943264D7A84006164A4 = {
@@ -76,6 +136,8 @@
 			children = (
 				B9E4994E264D7A84006164A4 /* CurrencyManager */,
 				B9E4994D264D7A84006164A4 /* Products */,
+				99547DA3B3EA3A938EBBC4B9 /* Pods */,
+				E85F229F23E9D8BF65A6A2AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,14 +154,21 @@
 			children = (
 				B9E4994F264D7A84006164A4 /* AppDelegate.swift */,
 				B9AA5C6E2674B75F0027FDBA /* Model */,
-				B9AA5C6D2674B7250027FDBA /* Presenter */,
+				B9AA5C6D2674B7250027FDBA /* Controller */,
 				B9AA5C6F2674B7650027FDBA /* View */,
-				B9AA5C702674B78F0027FDBA /* Api */,
 				B9E49958264D7A88006164A4 /* Assets.xcassets */,
 				B9E4995A264D7A88006164A4 /* LaunchScreen.storyboard */,
 				B9E4995D264D7A88006164A4 /* Info.plist */,
 			);
 			path = CurrencyManager;
+			sourceTree = "<group>";
+		};
+		E85F229F23E9D8BF65A6A2AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4658957F6E4408B623A0ACF /* Pods_CurrencyManager.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9E49960264D7A88006164A4 /* Build configuration list for PBXNativeTarget "CurrencyManager" */;
 			buildPhases = (
+				14EEE1493C1DF43FC985665A /* [CP] Check Pods Manifest.lock */,
 				B9E49948264D7A84006164A4 /* Sources */,
 				B9E49949264D7A84006164A4 /* Frameworks */,
 				B9E4994A264D7A84006164A4 /* Resources */,
+				961865BF4C748BB1664D48D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,35 +232,76 @@
 			files = (
 				B9E4995C264D7A88006164A4 /* LaunchScreen.storyboard in Resources */,
 				B9E49959264D7A88006164A4 /* Assets.xcassets in Resources */,
-				B9E49957264D7A84006164A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14EEE1493C1DF43FC985665A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CurrencyManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961865BF4C748BB1664D48D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CurrencyManager/Pods-CurrencyManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CurrencyManager/Pods-CurrencyManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CurrencyManager/Pods-CurrencyManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9E49948264D7A84006164A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E49954264D7A84006164A4 /* ViewController.swift in Sources */,
+				B975B6E5267E7BA2001829D1 /* ExchangerModel.swift in Sources */,
+				B975B6EC267E7EC8001829D1 /* HomePageViewController.swift in Sources */,
 				B9AA5C922677E5F80027FDBA /* BankModel.swift in Sources */,
+				B975B6EA267E7EB2001829D1 /* HomePageCell.swift in Sources */,
+				B975B6F92680B465001829D1 /* ShareViewController.swift in Sources */,
+				B975B6F326809092001829D1 /* DetailsHeaderView.swift in Sources */,
+				B975B6F5268090BF001829D1 /* DetailsSectionHeaderView.swift in Sources */,
 				B9E49950264D7A84006164A4 /* AppDelegate.swift in Sources */,
-				B9AA5C942677ED600027FDBA /* CardCell.swift in Sources */,
+				B975B6F126809076001829D1 /* DetailsRateCell.swift in Sources */,
+				B975B6E7267E7D30001829D1 /* RatesModel.swift in Sources */,
+				B975B6F7268090F2001829D1 /* DetailsViewController.swift in Sources */,
+				B975B6FB2680C5C8001829D1 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B9E49955264D7A84006164A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9E49956264D7A84006164A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B9E4995A264D7A88006164A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -319,6 +431,7 @@
 		};
 		B9E49961264D7A88006164A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01340A442B7CFDD02EC454C4 /* Pods-CurrencyManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,6 +452,7 @@
 		};
 		B9E49962264D7A88006164A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5042E2DC53B51ECF9A653FE4 /* Pods-CurrencyManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

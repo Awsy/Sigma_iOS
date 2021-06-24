@@ -3,36 +3,31 @@
 //  CurrencyManager
 //
 //  Created by Aws Shkara on 13.05.2021.
-//
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+	
+	var window: UIWindow?
+	
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-		// Override point for customization after application launch.
+		// Create root controller and make window visible
+		let rootController = HomePageViewController()
+		let navigationController = UINavigationController(rootViewController: rootController)
+		navigationController.navigationBar.barTintColor = UIColor(red: 0.29, green: 0.565, blue: 0.886, alpha: 1)
+		navigationController.navigationBar.tintColor = .white
+		navigationController.navigationBar.titleTextAttributes = [.foregroundColor : UIColor.white]
+		let window = UIWindow()
+		window.rootViewController = navigationController
+		if #available(iOS 13.0, *) {
+			window.overrideUserInterfaceStyle = .light
+		}
+		window.makeKeyAndVisible()
+		self.window = window
+		
 		return true
 	}
-
-	// MARK: UISceneSession Lifecycle
-
-	@available(iOS 13.0, *)
-	func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-		// Called when a new scene session is being created.
-		// Use this method to select a configuration to create the new scene with.
-		return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-	}
-
-	@available(iOS 13.0, *)
-	func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-		// Called when the user discards a scene session.
-		// If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-		// Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-	}
-
-
+	
 }
 
